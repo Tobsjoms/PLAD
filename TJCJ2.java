@@ -34,7 +34,7 @@ class Client extends WebSocketClient {
     HashMap<String, Set<String>> parent_lookup;
     Set<String> tails = new HashSet<>();
 
-    // Required Bullshit
+    // Required 
     Client(final URI server, final String kentId, final String token) {
         super(server);
         this.kentId = kentId;
